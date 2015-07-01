@@ -1,9 +1,9 @@
-TicketTest
+#TicketTest
 
-Description:
+##Description
 Diagnostic tool to test Qlik Sense Proxy authentication API for tickets. The tool lets you request a ticket and get detailed debug information back on the progress
 
-Installation:
+##Installation:
 
 If running on the same host as proxy no need for installation just run the tool with the following syntax
 TicketTest.exe R localhost [user] [userdirectory]
@@ -14,7 +14,7 @@ If run from a remote machine you will need to export the client certificate from
 3. Import the client.pfx certificate into the certificate store for the user you will run the tool as
 
 
-Example:
+##Example
 TicketTest.exe R localhost test testdir
 
 Loading certificate to use for ticket request
