@@ -15,7 +15,7 @@ If run from a remote machine you will need to export the client certificate from
 
 
 ##Example
-´´´
+```
 TicketTest.exe R localhost test testdir
 
 Loading certificate to use for ticket request
@@ -67,4 +67,4 @@ Ticket
 
 {"UserDirectory":"TESTDIR","UserId":"test","Attributes":[],"Ticket":"swiaZulzKHl
 fJfzr","TargetUri":null}
-´´´
+```
