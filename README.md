@@ -9,9 +9,9 @@ If running on the same host as proxy no need for installation just run the tool 
 TicketTest.exe R localhost [user] [userdirectory]
 
 If run from a remote machine you will need to export the client certificate from the proxy and import them to the host:
-1. Go to QMC and export certificate for host that you intend to test requesting a ticket from. Select to include the private key and use a password.
-2. Copy certificates from C:\ProgramData\Qlik\Sense\Repository\Exported Certificates\[host] to the host you are testing from
-3. Import the client.pfx certificate into the certificate store for the user you will run the tool as
+1	Go to QMC and export certificate for host that you intend to test requesting a ticket from. Select to include the private key and use a password.
+2	Copy certificates from C:\ProgramData\Qlik\Sense\Repository\Exported Certificates\[host] to the host you are testing from
+3	Import the client.pfx certificate into the certificate store for the user you will run the tool as
 
 
 ##Example
